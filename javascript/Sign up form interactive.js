@@ -41,7 +41,7 @@ signUpBtn.addEventListener('click', (e) => {
 
     localStorage.setItem('User Info', nameStore);
 
-    let a = location.href = 'file:///C:/Users/Ludacris%20Lunaism/getUserData.html';
+    let a = location.href = 'https://wasifkhan00.github.io/signup/login.html';
 
 })
 
