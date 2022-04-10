@@ -25,7 +25,7 @@ signUpBtn.addEventListener('click', (e) => {
         console.error('Confirm Password do not match ')
     }
 
-    if (dateOfBirth.value === '' || dateOfBirth.value === null || dateOfBirth.value < 18) {
+    if (dateOfBirth.value === '' || dateOfBirth.value === null) {
         console.error('Please enter the date of birth')
     }
 
