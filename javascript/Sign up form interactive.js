@@ -42,7 +42,7 @@ signUpBtn.addEventListener('click', (e) => {
 
 })
 
-export default nameStore;
+// export default nameStore;
 
 // console.log(localStorage.getItem('User Info')
 //     nameStore.push(fullName.value);
