@@ -1,4 +1,4 @@
-// export default nameStore;
+export default nameStore;
 let fullName = document.getElementById('name');
 let password = document.getElementById('password');
 let confirmPassword = document.getElementById('confirmpassword');
