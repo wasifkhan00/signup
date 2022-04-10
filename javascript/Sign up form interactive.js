@@ -1,4 +1,3 @@
-export default nameStore;
 let fullName = document.getElementById('name');
 let password = document.getElementById('password');
 let confirmPassword = document.getElementById('confirmpassword');
@@ -31,8 +30,6 @@ signUpBtn.addEventListener('click', (e) => {
     }
 
 
-
-
     nameStore[0].name = fullName.value;
     nameStore[0].pswd = password.value;
     nameStore[0].cpswd = confirmPassword.value;
@@ -45,7 +42,7 @@ signUpBtn.addEventListener('click', (e) => {
 
 })
 
-
+export default nameStore;
 
 // console.log(localStorage.getItem('User Info')
 //     nameStore.push(fullName.value);
