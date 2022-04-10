@@ -1,4 +1,3 @@
-import nameStore from './javascript/Sign up form interactive';
 // var outPut = document.getElementById('output');
 //     outPut.value = userName.value
 var userName = document.getElementById('username');
@@ -28,7 +27,7 @@ button.addEventListener('click', (e) => {
         console.error('username / password incorrect!')
     }
 
-    console.log(nameStore)
+//     console.log(nameStore)
 
     //     if (password.value === guestUserPassword) {
     //         console.log('Password Correct!')
