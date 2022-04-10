@@ -1,4 +1,4 @@
-import nameStore from './Sign up form interactive';
+import nameStore from './javascript/Sign up form interactive';
 // var outPut = document.getElementById('output');
 //     outPut.value = userName.value
 var userName = document.getElementById('username');
